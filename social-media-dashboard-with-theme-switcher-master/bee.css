@@ -1,0 +1,166 @@
+div.luku{
+    background: linear-gradient(to bottom, Blueviolet,cyan);
+    border-radius: 5px;
+    border: 1px solid green;
+    height: 80%;
+    /* width: 100%; */
+    padding-top: 1px;
+    /* padding-left: 50px; */
+    /* padding-bottom: 10px;  */
+    /* margin: auto; */
+}
+.fie{
+     padding-left:25px; 
+    color: white;
+}
+.fie:hover{
+    color: cyan;
+}
+.pot {
+    float:right;
+    padding-right: 25px; 
+}
+
+a.top{
+    color: white;
+    text-decoration: none;
+    /* padding-right: 50px; */
+    padding:20px; 
+    /* padding-right:50px; */
+}
+a.top:hover{
+    color: cyan;
+}
+.bee{
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 70%;
+    height: 70%;
+    background-color:whitesmoke;
+    opacity: 1;
+    transform: translateY(-70%)
+
+}
+#demo{
+    
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#sip{
+    padding-left: 30px;
+    /* z-index: -1; */
+}
+input.top{
+    border: none;
+    outline: none;
+    border-bottom:1px solid red;
+    padding: 10px;       
+    height: 3px;
+    width: 200px;
+    /* border-bottom: 1px solid white; */
+}
+input.top:focus {
+    border-bottom: 1px solid yellow;
+}
+input[type="submit"]{
+    background: linear-gradient( to right, Blueviolet, cyan);
+    color: white;
+    /* margin: auto; */
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 20px 5px;
+    width: 20%;
+    height: 20%;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: linear-gradient(to left, yellow, green);
+}
+.bolu{
+    float: right;
+    background-color: white;
+    /* opacity: 0.1; */
+    margin-top: -50%;
+    margin-right: 10%;
+    /* padding-top: 20px; */
+    padding: 20px;
+    /* padding-left:10px; */
+    width: 20%;
+    
+    color: white;
+    /* margin */
+}
+.tolu{
+    text-align: center;
+    background: linear-gradient(to right, blueviolet, cyan);
+}
+img{
+    padding-top: 1px;
+}
+#fem a{
+    padding: 10px ;
+}
+/* :placeholder-shown{
+    color: cyan;
+} */
+@media screen and (max-width: 600px) {
+    .bee{
+        width: 93%;
+        margin-left: 3%;
+    }
+    input.top{
+        width:130px ;
+    }
+    input[type="submit"]{
+        width: 15%;
+        height: 10%;
+        padding: 5px 5px;
+    }
+    #wale{
+        width: 130px;
+    }
+    .bolu{
+        /* float: right; */
+        background-color: white;
+        /* opacity: 0.1; */
+        margin-top: -110%;
+        margin-right: 10%;
+        /* padding-top: 20px; */
+        padding: 20px;
+        /* padding-left:10px; */
+        width: 30%;
+        
+        color: white;
+        /* margin */
+    }
+    a.top{
+        padding: 1px;
+    }
+}
+
+  /* a:hover{
+    color: violet;
+    background-color: yellow;
+}  
+     a:link {
+        color:blue;
+        background-color: tomato;
+}
+
+      visited link  
+    a:visited {
+    color: green;
+    background-color: turquoise;
+}
+
+      mouse over link  
+    a:hover {
+    color: red;
+    background-color: wheat;
+}
+
+      selected link  
+    a:active {
+    color: yellow;
+    background-color: transparent;
+}  */

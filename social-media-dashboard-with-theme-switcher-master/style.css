@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+    body {
+         margin: 0;
+         background:linear-gradient(to bottom left, magenta, purple)
+         
+    }
+    .header{
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        padding:10px;
+        height: 50%;
+    }
+    .content{
+        padding: 10px;
+        float: left;
+        width: 33.33%;
+    }
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .sala{
+        background-color: brown;
+        margin: auto;
+        margin-top: 20px;
+        width: 50%;
+        height: 30%;
+        overflow: hidden;
+    }
+    .sala a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .sala a:hover{
+        color: chocolate;
+        background-color: cyan;
+    }
+    .high{
+        background-color: darkgoldenrod;
+        text-align: center;
+        padding: 10px;
+        height: 70%;
+    }
+    @media screen and (max-width:600px) {
+        .column {
+            width: 100%;
+}
+}
